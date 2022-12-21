@@ -1,0 +1,32 @@
+.navbar-container-p {
+  grid-area: navbar;
+}
+
+.hero-container-p {
+  grid-area: hero;
+}
+
+.about-container-p {
+  grid-area: about;
+}
+
+.projects-container-p {
+  grid-area: projects;
+}
+
+.skills-container-p {
+  grid-area: skills;
+}
+
+.contact-container-p {
+  grid-area: contact;
+}
+
+.homepage-container-p {
+  background-color: #5CDB95;
+  color: #053868;
+  display: grid;
+  gap: 10px;
+  grid-template-areas: "navbar" "hero" "about" "projects" "skills" "contact";
+  height: 600vh; /* remove on build */
+}/*# sourceMappingURL=Homepage.css.map */
