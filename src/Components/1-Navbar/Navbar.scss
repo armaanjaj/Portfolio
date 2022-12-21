@@ -1,4 +1,4 @@
-$theme-light-color-1-navbar: rgba(92, 219, 149, 20%);
+$theme-light-color-1-navbar: rgba(92, 219, 149, 50%);
 $theme-light-color-2: rgba(5, 56, 104, 1);
 $theme-light-color-3: rgba(237, 245, 225, 1);
 $theme-light-color-4: rgba(55, 150, 131, 1);
@@ -25,9 +25,11 @@ $theme-navbar-font-size: 15px;
     top: 0px;
     width: 100%;
     height: 70px; // 100px on still
+    z-index: 999;
     background-color: $theme-light-color-1-navbar;
     backdrop-filter: blur(20px);
-    box-shadow: 0 10px 30px -10px rgb(0 158 71);
+    // box-shadow: 0 10px 30px -10px rgb(0 0 0 / 28%);
+    border-bottom: 0.5px solid white;
 }
 
 .navbar-nav-container{
@@ -38,6 +40,7 @@ $theme-navbar-font-size: 15px;
     align-items: center;
     position: relative;
     width: 100%;
+    z-index: 999;
     padding: 0px 50px;
     counter-reset: item 0;
     font-family: $theme-navbar-font-family;

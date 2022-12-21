@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap");
+.project-card-div {
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+}
+.project-card-div .project-details {
+  margin-left: 25px;
+  border-radius: 4px;
+  padding: 0px 20px;
+  background-color: #053868;
+  color: #5CDB95;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px, inset rgb(7, 99, 186) 0px 0px 5px 1px div;
+  box-shadow-display: flex;
+  box-shadow-flex-direction: column;
+  box-shadow-justify-content: center;
+  box-shadow-align-items: flex-end;
+  box-shadow-text-align: right;
+}
+.project-card-div .project-details ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.project-card-div .project-details ul li {
+  list-style: none;
+  margin-left: 10px;
+  font-size: 13px;
+  font-family: "Fira Mono", monospace;
+}
+.project-card-div .project-details div .project-title {
+  text-align: right;
+}
+.project-card-div .project-details ::-moz-selection {
+  color: #053868;
+  background: #3ad781;
+}
+.project-card-div .project-details ::selection {
+  color: #053868;
+  background: #3ad781;
+}
+
+.project-image img {
+  height: 100%;
+  width: 550px;
+  border-radius: 4px;
+}/*# sourceMappingURL=Project-cards.css.map */

@@ -3,7 +3,7 @@ import Homepage from './Pages/Homepage/Homepage'
 
 export default function App() {
   return (
-    <div>
+    <div className='app theme-mode'>
       <Homepage/>
     </div>
   )
