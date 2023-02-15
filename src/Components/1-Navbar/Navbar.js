@@ -24,9 +24,6 @@ export default function Navbar() {
                           <a href="#skills">Skills</a>
                         </li>
                         <li>
-                          <a href="#blogs">Blogs</a>
-                        </li>
-                        <li>
                           <a href="#contact">Contact</a>
                         </li>
                     </ol>

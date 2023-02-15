@@ -1,8 +1,0 @@
-.about-inner-left div ul {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-}
-.about-inner-left div ul li {
-  list-style: none;
-}/*# sourceMappingURL=About.css.map */

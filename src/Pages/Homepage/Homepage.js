@@ -5,7 +5,7 @@ import About from '../../Components/3-About/About'
 import Projects from '../../Components/4-Projects/Projects'
 import Skills from '../../Components/5-Skills/Skills'
 import Contact from '../../Components/6-Contact/Contact'
-import './Homepage.css'
+import "./Homepage.css"
 
 export default function Homepage() {
 
@@ -19,15 +19,11 @@ export default function Homepage() {
      */
     <div className='homepage-container-p'>
       <Navbar/>
-      <div id="content">
-        <main>
-          <Hero/>
-          <About/>
-          <Projects/>
-          <Skills/>
-          <Contact/>
-        </main>
-      </div>
+      <Hero/>
+      <About/>
+      <Projects/>
+      <Skills/>
+      <Contact/>
     </div>
   )
 }
